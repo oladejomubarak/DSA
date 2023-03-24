@@ -1,28 +1,26 @@
 package array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class ReverseString {
     public static void main(String[] args) {
-        String[] array = {"oladejo", "adelakun"};
-        var arrayList = Arrays.asList(array);
-        System.out.println(reverseArray(arrayList));
+        String string= "lambda";
+        //reverse(string);
+
+        System.out.print(reverseString(string));
+
     }
-    private static List<String> reverseArray(List<String> arr){
-            List<String> reverse = new ArrayList<>();
-        int increment = 0;
-        for (String string : arr) {
-            String[] arr1 = new String[string.length()];
-            //char[] charArray = string.toCharArray();
-            for (int i = string.length() -1; i >=0; i--) {
-                arr1[increment] = String.valueOf(string.charAt(i));
-                increment++;
-            }
-            reverse.add(Arrays.toString(arr1));
+    public static void reverse(String word){
+
+        for (int i = word.length() -1; i>=0  ; i--) {
+            System.out.print(word.charAt(i));
 
         }
-        return reverse;
+    }
+    public static String reverseString(String word){
+        String reversedString = "";
+        for (int i = word.length() -1; i >= 0; i--) {
+            char chatAtEachReversedIndex = word.charAt(i);
+            reversedString+=chatAtEachReversedIndex;
+        }
+        return reversedString;
     }
 }

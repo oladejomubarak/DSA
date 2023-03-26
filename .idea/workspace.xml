@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ReverseStringsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ShuffleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ShuffleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +31,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReverseString">
+}]]></component>
+  <component name="RunManager" selected="Application.Disjoint">
     <configuration name="BurbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewAlgorithmQuestions.BurbleSort" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interviewAlgorithmQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Disjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Disjoint" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Intersection" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Disjoint" />
+        <item itemvalue="Application.Intersection" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.ReverseStringsInArray" />
         <item itemvalue="Application.BurbleSort" />
@@ -98,7 +127,7 @@
       <workItem from="1669192189399" duration="856000" />
       <workItem from="1676365676290" duration="1229000" />
       <workItem from="1676885271195" duration="4271000" />
-      <workItem from="1679586676677" duration="12339000" />
+      <workItem from="1679586676677" duration="24612000" />
     </task>
     <servers />
   </component>

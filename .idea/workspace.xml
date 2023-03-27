@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ShuffleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ShuffleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/Disjoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Disjoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Intersection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,13 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Disjoint">
-    <configuration name="BurbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewAlgorithmQuestions.BurbleSort" />
+  <component name="RunManager" selected="Application.Median">
+    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Median" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewAlgorithmQuestions.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Disjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.Disjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.Disjoint" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
@@ -67,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.Intersection" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
@@ -80,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ReverseString" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
@@ -93,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.ReverseStringsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ReverseStringsInArray" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Disjoint" />
-        <item itemvalue="Application.Intersection" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.ReverseStringsInArray" />
-        <item itemvalue="Application.BurbleSort" />
+        <item itemvalue="Application.Median" />
+        <item itemvalue="Application.array.Disjoint" />
+        <item itemvalue="Application.array.Intersection" />
+        <item itemvalue="Application.array.ReverseString" />
+        <item itemvalue="Application.array.ReverseStringsInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +128,7 @@
       <workItem from="1669192189399" duration="856000" />
       <workItem from="1676365676290" duration="1229000" />
       <workItem from="1676885271195" duration="4271000" />
-      <workItem from="1679586676677" duration="24612000" />
+      <workItem from="1679586676677" duration="34474000" />
     </task>
     <servers />
   </component>
@@ -144,5 +145,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/Median.java</url>
+          <line>8</line>
+          <properties class="array.Median" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

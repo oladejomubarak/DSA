@@ -11,18 +11,29 @@ public class Disjoint {
     }
     public static int[] disjoint(int[] arr1, int[] arr2){
         List<Integer> arr5 = new ArrayList<>();
-        Set<Integer> arr6 = new HashSet<>();
-        Set<Integer> arr3 = new HashSet<>();
-        Set<Integer> arr4 = new HashSet<>();
-
+        List<Integer> arr3 = new ArrayList<>();
+        List<Integer> arr4 = new ArrayList<>();
+//        Set<Integer> arr3 = new HashSet<>();
+//        Set<Integer> arr4 = new HashSet<>();
+//
+//        for (var a: arr1
+//             ) { arr3.add(a);
+//
+//        }
+//        for (var a: arr2
+//             ) {arr4.add(a);
+//
+//        }
         for (var a: arr1
-             ) { arr3.add(a);
-
+             ) {
+            if (!arr3.contains(a)) arr3.add(a);
         }
-        for (var a: arr2
-             ) {arr4.add(a);
+            for (var a: arr2
+            ) {
+                if (!arr4.contains(a)) arr4.add(a);
 
-        }
+            }
+
         for (var val: arr3
              ) { if (!arr4.contains(val))arr5.add(val);
         }

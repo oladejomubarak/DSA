@@ -7,15 +7,15 @@ import java.util.List;
 public class Median {
 
     public static void main(String[] args) {
-        int[] arr1 = {1,5,6,4,4,3,6,8,8};
-        int[] arr2 = {3,4,2,6,7,6,5,0};
+        int[] arr1 = {1,5,3,4,4,3,6,8,8,1,2,34,5,67,8,90};
+        int[] arr2 = {3,4,2,6,7,6,5,0,45,67,8,87,64,3};
         System.out.println(getMedian(arr1));
         System.out.println(getMedian(arr2));
 
     }
-    public static int getMedian (int[] arr){
+    public static float getMedian (int[] arr){
         List<Integer> arr1 = new ArrayList<>();
-        int median = 0;
+        float median = 0;
         for (var a: arr
              ) {arr1.add(a);
         }

@@ -9,11 +9,11 @@ public class Shuffle {
 
     }
     public static int[] shuffle(int[] nums, int n){
-        int size = nums.length / 2;
+        n = nums.length / 2;
         int[] result = new int[n*2];
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < n; i++) {
             result[2*i] = nums[i];
-            result[2*i+1] = nums[i+size];
+            result[2*i+1] = nums[i+n];
         }
         return result;
     }

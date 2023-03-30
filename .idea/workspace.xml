@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/array/Monotonic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Monotonic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,22 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Shuffle">
+  <component name="RunManager" selected="Application.Monotonic">
     <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.Median" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Monotonic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Monotonic" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
@@ -92,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ReverseString" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Monotonic" />
         <item itemvalue="Application.Shuffle" />
         <item itemvalue="Application.Median" />
         <item itemvalue="Application.array.Disjoint" />
         <item itemvalue="Application.array.Intersection" />
-        <item itemvalue="Application.array.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +127,7 @@
       <workItem from="1669192189399" duration="856000" />
       <workItem from="1676365676290" duration="1229000" />
       <workItem from="1676885271195" duration="4271000" />
-      <workItem from="1679586676677" duration="46540000" />
+      <workItem from="1679586676677" duration="54482000" />
     </task>
     <servers />
   </component>

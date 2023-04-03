@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/Monotonic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Monotonic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ReverseStringsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ReverseStringsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/FindAllDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindAllDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,20 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseStringsInArray">
+  <component name="RunManager" selected="Application.FindAllDuplicates">
+    <configuration name="FindAllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindAllDuplicates" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.Median" />
       <module name="jonaAgorithm" />
@@ -95,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.Disjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Disjoint" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindAllDuplicates" />
         <item itemvalue="Application.ReverseStringsInArray" />
         <item itemvalue="Application.Monotonic" />
         <item itemvalue="Application.Shuffle" />
         <item itemvalue="Application.Median" />
-        <item itemvalue="Application.array.Disjoint" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +128,7 @@
       <workItem from="1676365676290" duration="1229000" />
       <workItem from="1676885271195" duration="4271000" />
       <workItem from="1679586676677" duration="58405000" />
-      <workItem from="1680192146443" duration="6302000" />
+      <workItem from="1680192146443" duration="8396000" />
     </task>
     <servers />
   </component>

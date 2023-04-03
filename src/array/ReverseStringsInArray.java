@@ -14,13 +14,13 @@ public class ReverseStringsInArray {
             List<String> reverse = new ArrayList<>();
         int increment = 0;
         for (String string : arr) {
-            String[] arr1 = new String[string.length()];
+            String arr1 = "";
             //char[] charArray = string.toCharArray();
             for (int i = string.length() -1; i >=0; i--) {
-                arr1[increment] = String.valueOf(string.charAt(i));
+                arr1+=string.charAt(i);
                 increment++;
             }
-            reverse.add(Arrays.toString(arr1));
+            reverse.add(arr1);
 
         }
         return reverse;

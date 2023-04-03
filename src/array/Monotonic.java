@@ -17,7 +17,7 @@ public class Monotonic {
 
 public static boolean isMonotonic(int[] nums){
     boolean result = true;
-    if(nums[0] > nums[1]){
+    if(nums[0] >= nums[1]){
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
             if (nums[i] < nums[j]) {
@@ -26,8 +26,7 @@ public static boolean isMonotonic(int[] nums){
             }
         }
         }
-    }
-    if (nums[0] < nums[1]){
+    } else {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
             if (nums[i] > nums[j]) {

@@ -22,16 +22,17 @@ public class ReplaceElementsInArray {
 //                     list.remove(i);
 //                     list.add(j);
 //                 }
-//
 //            }
-//
 //        }
         for (int i = 0; i < operations.length; i++) {
-            for (int j = 0; j < i; j++) {
-
-                if (list.contains(operations[i][j])) {
-                    list.remove(operations[i][0]);
-                    list.add(operations[i][1]);
+            for (int j = 0; j < operations[i].length; j++) {
+                for (var k: list
+                     ) {
+                    if( k.equals(operations[i][0])) {
+                        list.remove(k);
+                        list.add(operations[i][1]);
+                        break;
+                    }
                 }
             }
         }

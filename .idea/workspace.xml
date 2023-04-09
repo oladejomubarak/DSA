@@ -40,7 +40,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReplaceElementsInArray">
+  <component name="RunManager" selected="Application.Mode">
     <configuration name="FindAllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindAllDuplicates" />
       <module name="jonaAgorithm" />
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Monotonic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Monotonic" />
+    <configuration name="Mode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pairProgramming.Mode" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="pairProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Shuffle" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RotateArray" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mode" />
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.ReplaceElementsInArray" />
         <item itemvalue="Application.FindAllDuplicates" />
         <item itemvalue="Application.ReverseStringsInArray" />
-        <item itemvalue="Application.Monotonic" />
-        <item itemvalue="Application.Shuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +128,7 @@
       <workItem from="1676365676290" duration="1229000" />
       <workItem from="1676885271195" duration="4271000" />
       <workItem from="1679586676677" duration="58405000" />
-      <workItem from="1680192146443" duration="22708000" />
+      <workItem from="1680192146443" duration="44316000" />
     </task>
     <servers />
   </component>

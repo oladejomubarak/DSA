@@ -9,16 +9,13 @@ public class TwoSum {
         System.out.println(Arrays.toString(getTwoSum(arr, target)));
 
     }
-    public static int[] getTwoSum(int[] arr, int target){
+    public static int[] getTwoSum(int[] nums, int target){
         int[] arr1 = new int[2];
-        int counter = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if(arr[i] + arr[j] == target){
-                    arr1[counter] = arr[i];
-                    counter++;
-                    arr1[counter] = arr[j];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i+1; j < nums.length; j++) {
+                if(nums[i] + nums[j] == target){
+                    arr1[0] = i;
+                    arr1[1] = j;
                 }
             }
         }

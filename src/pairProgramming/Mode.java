@@ -9,7 +9,6 @@ public class Mode {
     public static void main(String[] args) {
         int [] arr = {1,3,6,6,6,6,6,7,3,0,7,8};
         System.out.println(mode(arr));
-
     }
     public static int mode (int[] arr){
         Map<Integer, Integer> map = new HashMap<>();

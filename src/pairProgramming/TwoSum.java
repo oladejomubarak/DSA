@@ -7,7 +7,6 @@ public class TwoSum {
         int[] arr  = {2,7,11,15};
         int target = 9;
         System.out.println(Arrays.toString(getTwoSum(arr, target)));
-
     }
     public static int[] getTwoSum(int[] nums, int target){
         int[] arr1 = new int[2];

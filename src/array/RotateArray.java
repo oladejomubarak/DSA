@@ -21,7 +21,7 @@ public class RotateArray {
                     nums[i] = nums[j];
                     nums[j] = nums[move];
                 }
-                rotate++;
+               // rotate++;
             }
         }
         System.out.print(Arrays.toString(nums));

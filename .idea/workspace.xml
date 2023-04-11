@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pairProgramming/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairProgramming/TwoSum.java" afterDir="false" />
-    </list>
+    <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +127,7 @@
       <workItem from="1679586676677" duration="58405000" />
       <workItem from="1680192146443" duration="46572000" />
       <workItem from="1681111877988" duration="1809000" />
+      <workItem from="1681243438272" duration="582000" />
     </task>
     <servers />
   </component>

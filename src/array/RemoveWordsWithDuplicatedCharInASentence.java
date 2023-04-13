@@ -8,17 +8,21 @@ public class RemoveWordsWithDuplicatedCharInASentence {
         List<String> stringOfWord = List.of(sentence.split(" "));
         System.out.println(stringOfWord);
 
+        System.out.println(removeDuplicate(sentence));
+
     }
     public static String removeDuplicate(String sentence) {
         StringBuilder stringBuilder = new StringBuilder();
 
         List<String> split = List.of(sentence.split(" "));
 
-        for (int i = 0; i < split.size(); i++) {
-            for (int j = 0; j < i; j++) {
-
+        for (String word : split) {
+            for (int j = 0; j < word.length(); j++) {
+            for (int i = 1; i < word.length(); i++) {
+                if (!(word.charAt(j) == word.charAt(i))) stringBuilder.append(word);
+            }
             }
         }
-        return null;
+        return stringBuilder.toString();
     }
 }

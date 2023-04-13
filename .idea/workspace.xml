@@ -39,20 +39,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="FindAllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindAllDuplicates" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveWordsWithDuplicatedCharInASentence">
     <configuration name="Mode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pairProgramming.Mode" />
       <module name="jonaAgorithm" />
@@ -66,21 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ReplaceElementsInArray" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RotateArray" />
+    <configuration name="RemoveWordsWithDuplicatedCharInASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RemoveWordsWithDuplicatedCharInASentence" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +79,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="array.ReplaceElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ReplaceElementsInArray" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array.RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RotateArray" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveWordsWithDuplicatedCharInASentence" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.Mode" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.ReplaceElementsInArray" />
-        <item itemvalue="Application.FindAllDuplicates" />
+        <item itemvalue="Application.array.RotateArray" />
+        <item itemvalue="Application.array.ReplaceElementsInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,8 @@
       <workItem from="1679586676677" duration="58405000" />
       <workItem from="1680192146443" duration="46572000" />
       <workItem from="1681111877988" duration="1809000" />
-      <workItem from="1681243438272" duration="1489000" />
+      <workItem from="1681243438272" duration="2708000" />
+      <workItem from="1681309585648" duration="3914000" />
     </task>
     <servers />
   </component>

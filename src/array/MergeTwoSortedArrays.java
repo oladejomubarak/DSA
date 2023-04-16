@@ -13,7 +13,6 @@ public class MergeTwoSortedArrays {
         int length = arr1.length + arr2.length;
         int counter = 0;
         int[] arr = new int[length];
-        //int[] sortedArray = new int[length];
         for (int k : arr1) {
             arr[counter] = k;
             counter++;

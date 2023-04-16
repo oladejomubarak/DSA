@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {
         int[] arr1 = {1,4,2,5,9};
-        int[] arr2  = {3,6,7,8,0};
+        int[] arr2  = {3,6,7,8};
         System.out.println(Arrays.toString(mergeArray(arr1, arr2)));
 
     }
@@ -13,13 +13,13 @@ public class MergeTwoSortedArrays {
         int length = arr1.length + arr2.length;
         int counter = 0;
         int[] arr = new int[length];
-        int[] sortedArray = new int[length];
-        for (int i = 0; i < arr1.length; i++) {
-            arr[counter] = arr[i];
+        //int[] sortedArray = new int[length];
+        for (int k : arr1) {
+            arr[counter] = k;
             counter++;
         }
-        for (int i = 0; i < arr2.length; i++) {
-            arr[counter] = arr2[i];
+        for (int k : arr2) {
+            arr[counter] = k;
             counter++;
         }
 
@@ -32,6 +32,6 @@ public class MergeTwoSortedArrays {
                 }
             }
         }
-        return sortedArray;
+        return arr;
     }
 }

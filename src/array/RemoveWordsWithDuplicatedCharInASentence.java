@@ -14,14 +14,20 @@ public class RemoveWordsWithDuplicatedCharInASentence {
     public static String removeDuplicate(String sentence) {
         StringBuilder stringBuilder = new StringBuilder();
 
-        List<String> split = List.of(sentence.split(" "));
+        List<String> split = new java.util.ArrayList<>(List.of(sentence.split(" ")));
 
         for (String word : split) {
-            for (int j = 0; j < word.length(); j++) {
-            for (int i = 1; i < word.length(); i++) {
-                if (!(word.charAt(j) == word.charAt(i))) stringBuilder.append(word);
+            for (int i = 0; i < word.length(); i++) {
+            for (int j = i+1; j < word.length(); j++) {
+                if (word.charAt(i)== word.charAt(j)) split.remove(word);
+
             }
+
             }
+            break;
+        }
+        for (String word : split) {
+            stringBuilder.append(word).append(" ");
         }
         return stringBuilder.toString();
     }

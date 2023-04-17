@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 public class RemoveWordsWithDuplicatedCharInASentence {
@@ -9,6 +11,8 @@ public class RemoveWordsWithDuplicatedCharInASentence {
         System.out.println(stringOfWord);
 
         System.out.println(removeDuplicate(sentence));
+
+        System.out.println(removeDuplicates(sentence));
 
     }
     public static String removeDuplicate(String sentence) {
@@ -29,6 +33,18 @@ public class RemoveWordsWithDuplicatedCharInASentence {
         for (String word : split) {
             stringBuilder.append(word).append(" ");
         }
+        return stringBuilder.toString();
+    }
+    public static String removeDuplicates(String sentence){
+        String[] words = sentence.split("\\s+");
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String word : words
+             ) { if (word.length() == new HashSet<>(Arrays.asList(word.split(""))).size()){
+                 stringBuilder.append(word).append(" ");
+        }
+
+        }
+
         return stringBuilder.toString();
     }
 }

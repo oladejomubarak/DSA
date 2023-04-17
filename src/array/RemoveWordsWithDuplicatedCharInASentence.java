@@ -40,7 +40,6 @@ public class RemoveWordsWithDuplicatedCharInASentence {
         String[] words = sentence.split("\\s+");
         StringBuilder stringBuilder = new StringBuilder();
         for (String word : words
-                List<String> lst = new ArrayList<>(Arrays.asList(word.spit))
              ) { if (word.length() == new HashSet<>(Arrays.asList(word.split(""))).size()){
                  stringBuilder.append(word).append(" ");
         }

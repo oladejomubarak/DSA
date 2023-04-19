@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/array/RemoveWordsWithDuplicatedCharInASentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/RemoveWordsWithDuplicatedCharInASentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <workItem from="1681111877988" duration="1809000" />
       <workItem from="1681243438272" duration="2708000" />
       <workItem from="1681309585648" duration="8061000" />
-      <workItem from="1681594259100" duration="8859000" />
+      <workItem from="1681594259100" duration="12187000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dietelChap14/StringBuilderMethodsChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dietelChap14/StringBuilderMethodsChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveWordsWithDuplicatedCharInASentence">
+  <component name="RunManager" selected="Application.StringBuilderMethodsChar">
     <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.MergeTwoSortedArrays" />
       <module name="jonaAgorithm" />
@@ -79,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringBuilderMethodsChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dietelChap14.StringBuilderMethodsChar" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dietelChap14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pairProgramming.TwoSum" />
       <module name="jonaAgorithm" />
@@ -92,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RotateArray" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBuilderMethodsChar" />
         <item itemvalue="Application.RemoveWordsWithDuplicatedCharInASentence" />
         <item itemvalue="Application.MergeTwoSortedArrays" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.Mode" />
-        <item itemvalue="Application.array.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +132,9 @@
       <workItem from="1681111877988" duration="1809000" />
       <workItem from="1681243438272" duration="2708000" />
       <workItem from="1681309585648" duration="8061000" />
-      <workItem from="1681594259100" duration="12187000" />
+      <workItem from="1681594259100" duration="14917000" />
+      <workItem from="1682094890426" duration="512000" />
+      <workItem from="1682374177758" duration="588000" />
     </task>
     <servers />
   </component>

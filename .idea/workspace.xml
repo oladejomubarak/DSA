@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dietelChap14/StringBuilderMethodsChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dietelChap14/StringBuilderMethodsChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +39,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringBuilderMethodsChar">
-    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MergeTwoSortedArrays" />
+  <component name="RunManager" selected="Application.LongestWordInASentence">
+    <configuration name="LongestWordInASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dietelChap14.LongestWordInASentence" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dietelChap14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pairProgramming.Mode" />
+    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MergeTwoSortedArrays" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pairProgramming.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestWordInASentence" />
         <item itemvalue="Application.StringBuilderMethodsChar" />
         <item itemvalue="Application.RemoveWordsWithDuplicatedCharInASentence" />
         <item itemvalue="Application.MergeTwoSortedArrays" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.Mode" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +133,7 @@
       <workItem from="1681309585648" duration="8061000" />
       <workItem from="1681594259100" duration="14917000" />
       <workItem from="1682094890426" duration="512000" />
-      <workItem from="1682374177758" duration="588000" />
+      <workItem from="1682374177758" duration="5850000" />
     </task>
     <servers />
   </component>

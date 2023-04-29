@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dietelChap14/LongestWordInASentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dietelChap14/LongestWordInASentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,7 @@
       <workItem from="1681309585648" duration="8061000" />
       <workItem from="1681594259100" duration="14917000" />
       <workItem from="1682094890426" duration="512000" />
-      <workItem from="1682374177758" duration="5850000" />
+      <workItem from="1682374177758" duration="12639000" />
     </task>
     <servers />
   </component>
@@ -162,6 +163,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dietelChap14/LongestWordInASentence.java</url>
+          <line>10</line>
+          <properties class="dietelChap14.LongestWordInASentence" method="findLongestWord">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/ReverseStringsInArray.java</url>

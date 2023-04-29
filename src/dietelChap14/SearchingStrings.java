@@ -2,6 +2,9 @@ package dietelChap14;
 
 public class SearchingStrings {
     public static void main(String[] args) {
+        String text = "industrialisation";
+        char character = 'i';
+        System.out.println(searchNumberOfCharInAString(text, character));
 
     }
     public static int searchNumberOfCharInAString(String text, char character){

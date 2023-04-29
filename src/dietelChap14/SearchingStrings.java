@@ -5,7 +5,10 @@ public class SearchingStrings {
 
     }
     public static int searchNumberOfCharInAString(String text, char character){
-
-        return 0;
+            int counter = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if(text.charAt(i) == character) counter++;
+        }
+        return counter;
     }
 }

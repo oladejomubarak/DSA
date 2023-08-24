@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="201f6a7d-bfd6-4b25-a335-a5ec5ea732db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dietelChap14/SearchingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dietelChap14/SearchingStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +39,35 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchingStrings">
-    <configuration name="LongestWordInASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dietelChap14.LongestWordInASentence" />
+  <component name="RunManager" selected="Application.Disjoint">
+    <configuration name="BurbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewAlgorithmQuestions.BurbleSort" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewAlgorithmQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Disjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Disjoint" />
+      <module name="jonaAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dietelChap14.LengthOfString" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
@@ -54,25 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MergeTwoSortedArrays" />
+    <configuration name="LongestWordInASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dietelChap14.LongestWordInASentence" />
       <module name="jonaAgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveWordsWithDuplicatedCharInASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RemoveWordsWithDuplicatedCharInASentence" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dietelChap14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,26 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderMethodsChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dietelChap14.StringBuilderMethodsChar" />
-      <module name="jonaAgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dietelChap14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Disjoint" />
+        <item itemvalue="Application.LengthOfString" />
+        <item itemvalue="Application.BurbleSort" />
         <item itemvalue="Application.SearchingStrings" />
         <item itemvalue="Application.LongestWordInASentence" />
-        <item itemvalue="Application.StringBuilderMethodsChar" />
-        <item itemvalue="Application.RemoveWordsWithDuplicatedCharInASentence" />
-        <item itemvalue="Application.MergeTwoSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +133,8 @@
       <workItem from="1681309585648" duration="8061000" />
       <workItem from="1681594259100" duration="14917000" />
       <workItem from="1682094890426" duration="512000" />
-      <workItem from="1682374177758" duration="15280000" />
+      <workItem from="1682374177758" duration="21838000" />
+      <workItem from="1690713632027" duration="8953000" />
     </task>
     <servers />
   </component>

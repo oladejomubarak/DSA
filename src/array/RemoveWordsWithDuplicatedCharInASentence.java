@@ -13,7 +13,7 @@ public class RemoveWordsWithDuplicatedCharInASentence {
 
         System.out.println(removeDuplicate(sentence));
 
-        System.out.println(removeDuplicates(sentence));
+        System.out.println(removeDuplicatedWords(sentence));
 
     }
     public static String removeDuplicate(String sentence) {
@@ -36,7 +36,7 @@ public class RemoveWordsWithDuplicatedCharInASentence {
         }
         return stringBuilder.toString();
     }
-    public static String removeDuplicates(String sentence){
+    public static String removeDuplicatedWords(String sentence){
         String[] words = sentence.split("\\s+");
         StringBuilder stringBuilder = new StringBuilder();
         for (String word : words
